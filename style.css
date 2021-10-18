@@ -1,0 +1,30 @@
+body {
+  margin: 0;  
+  padding: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0) 100%),url(/assets/img/cofee.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top:50%;
+    left:50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+
+.avatar {
+  width:20%;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: calc(50% - 40px);
+}
+
