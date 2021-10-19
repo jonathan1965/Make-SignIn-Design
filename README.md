@@ -2,7 +2,6 @@
 > Mint web sign-up
 
 ## Screenshot (s)
-![image]()
 ![Uploading LOGIN.JPG…]()
 
 ## Built with
