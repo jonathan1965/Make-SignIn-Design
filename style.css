@@ -11,13 +11,15 @@ body {
 .loginbox {
     width: 320px;
     height: 420px;
-    background: #000;
+    background: rgba(0, 0, 0, 0.438);
     color: #fff;
     top:50%;
     left:50%;
     position: relative;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
+    border-radius: 10px;
+    padding: 70px 30px;
 }
 
 .avatar {
@@ -28,3 +30,61 @@ body {
   left: calc(50% - 40px);
 }
 
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #fcf9fb;
+}
+
+.loginbox input {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.loginbox input[type="text"], input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;  
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px ;
+}
+
+.loginbox input[type="submit"] {
+
+  border:none;
+  outline: none;
+  height: 40px;
+  background: #57a2fd;
+  color: #fff;
+  font-size:18px;
+  border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover {
+
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.loginbox a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color:darkgrey;
+}
+
+.loginbox a:hover {
+  color: #ffc107;
+}
+   
